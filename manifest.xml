@@ -1,18 +1,9 @@
 <package>
-  <description brief="incrementally register pairs of clouds">
-  
+  <description brief=" Incrementally register pairs of clouds">
+  Incrementaly register pairs of clouds using ICP
   </description>
-  <author>javier hidalgo/javier.hidalgo_carrio@dfki.de</author>
-  <license></license>
-  <url>http://</url>
-  <logo>http://</logo>
+  <author>Javier Hidalgo/javier.hidalgo_carrio@dfki.de</author>
+  <license>BSD</license>
   <depend package="base/cmake" />
-  <!--
-   To add any dependencies use the depend tag
-  <depend package="dummy-dependency-0" />
-	...
-  <depend package="dummy-dependency-n-1" />
-  <depend package="dummy-dependency-n" />
-  -->
   <depend package="slam/pcl" />
 </package>
